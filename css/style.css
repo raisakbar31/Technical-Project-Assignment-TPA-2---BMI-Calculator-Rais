@@ -55,6 +55,7 @@ svg{
 }
 
 .button{
+    margin-top: -15px;
     border: solid rgb(255, 157, 0);
     display: flex;
     margin-left: 30%;

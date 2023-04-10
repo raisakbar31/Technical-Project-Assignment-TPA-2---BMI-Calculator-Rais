@@ -32,18 +32,8 @@
 
 
   <!-- ==========footer================ -->
-  <!-- <div class="art">
-    <img class="img" src="./img/hiasan.png" alt="hiasan1">
-  </div>
-  <div class="card">
-    <p>
-    let's be friends
-    </p><br>
-<a class="button2" href="https://www.instagram.com/sikang_is/?hl=id">Follow Me</a>
-  </div>
-  <div class="hiasan">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111" fill-opacity="1" d="M0,0L288,32L576,32L864,288L1152,128L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>  </div> -->
-  <!-- <footer>
+ 
+  <footer>
     <div class="footer-content">
         <h3>Rais Akbar Sidik</h3>
         <p>I am a web designer who loves beauty and functionality. I am required to create an engaging and intuitive online experience, with an elegant and functional design. Let's create your dream website together!</p>
@@ -55,20 +45,11 @@
         </ul>
     </div>
     <div class="footer-bottom">
-        <p>copyright &copy; <a href="#">sikang_is</a>  </p> -->
-                <!-- <div class="footer-menu">
-                  <ul class="f-menu">
-                    <li><a style="color: #F87600;" href="index.html">Home</a></li>
-                    <li><a href="projek.html">Projek</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="artikel.html">Blog</a></li>
-                  </ul>
-                </div> -->
+        <p>copyright &copy; <a href="#">sikang_is</a>  </p>
     </div>
 
 </footer>
-  <!-- ===========script============== -->
+<!-- ===============script=================== -->
  <script src="./js/index.js"></script>
 </body>
 </html>

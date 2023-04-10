@@ -12,15 +12,23 @@
     margin-bottom: 48px;
 }
 .container-form{
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin-left: 30%;
+   margin-right: 30%;
 }
-label{
-    padding: 24px;
+.isi-form{
+    padding-left: 4px;
+    margin-top: -12px;
+    padding: 12px;
+    border: solid rgba(0, 0, 0, 0.233);
+    border-radius: 6px;
 }
+
 .button{
-    margin-top: 24px;
-    margin-bottom: 24px;
     border: solid rgb(255, 157, 0);
+    display: flex;
+    margin-left: 30%;
     padding: 12px 24px;
     border-radius: 12px;
     background-color: white;
@@ -45,66 +53,24 @@ label{
     text-decoration: none;
 }
 .container-hasil{
-    background-color: rgb(255, 157, 0);
-    align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 12px;
-}
-.judul-hasil{
-    margin-top: 24px;
-    margin-bottom: 24px;
-    padding: 24px;
-    display:flex;
-    justify-content: center;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 12px;
 }
 .hasil{
-    margin-top: 24px;
-    margin-bottom: 24px; 
-    display:flex;
-    justify-content: center;
+    margin-top: 12px;
 }
-.hasil p{
-    padding: 24px;
-    margin-right: 24px;
-}
-.hasil span{
+#bmi{
     font-weight: bolder;
-    color:white;
+    color: #F87600;
 }
-.gambar {
-width: 30px;
-height: 25px;
-align-content: center;
-padding-top: 24px;
+#status{
+    font-weight: bolder;
+    color: #F87600;
 }
-.hiasan{
-    margin-top: -300px;
-    position: relative;
-    z-index: -1;
-}
-.art{
-    margin-right: 70%;
-    margin-top: -150px;
-    position: relative;
-    z-index: 2;
-}
-.card{
-    background-color: #F87600;
-    color: white;
-    margin-right: 70%;
-    margin-left: 10%;
-    border-radius: 12px;
-    margin-top: -90px;
-    position: relative;
-    z-index: 999;
-    padding: 24px;
-
-}
-
 
 /* footer */
-
+/* 
 footer{
     bottom: 0;
     left: 0;
@@ -223,4 +189,4 @@ display: block;
     margin-left: 50%;
     margin-right: 50%;
 }
-}
+} */

@@ -12,30 +12,27 @@
 </head>
 <body>
     <div class="judul">
-      <h1>Body Mass Index (BMI) Calculator</h1>
+      <h1>Check Your BMI</h1> <br>
+      <h3>Enter your weight and height to check your BMI result</h3>
       </div>
     <div class="container-form">
-    <label>Berat Badan (kg):</label>
-    <input type="number" id="berat">
-    <label>Tinggi Badan (cm):</label>
-    <input type="number" id="tinggi">
+    <p>Put your weight in here (KG)</p><br>
+    <input class="isi-form" type="number" id="berat" placeholder="60"><br>
+    <p>And your Height in here (CM)</p><br>
+    <input class="isi-form" type="number" id="tinggi" placeholder="167"><br>
     <br>
-    <button class="button" onclick="calculateBMI()">Calculate</button>
-<!-- ==========hasil============     -->
-    <hr>
-    <div class="container-hasil">
-    <div class="judul-hasil">
-    <h3>Result:</h3>
     </div>
-    <div class="hasil">
-    <img class="gambar" src="./img/BMI.png" alt="BMI">
-    <p>Your BMI: <span id="bmi"></span></p>
-    <img class="gambar" src="./img/status.png" alt="status">
-    <p>Status: <span id="status"></span></p>
+    <button class="button" onclick="calculateBMI()">Calculate</button>
+
+    <!-- ==========hasil============     -->
+   <div class="container-hasil">
+    <p class="hasil">Your BMI is <span id="bmi"></span></p>
+    <p class="hasil" >which means You are  <span id="status"></span></p>
   </div>
-  </div>
+
+
   <!-- ==========footer================ -->
-  <div class="art">
+  <!-- <div class="art">
     <img class="img" src="./img/hiasan.png" alt="hiasan1">
   </div>
   <div class="card">
@@ -45,8 +42,8 @@
 <a class="button2" href="https://www.instagram.com/sikang_is/?hl=id">Follow Me</a>
   </div>
   <div class="hiasan">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111" fill-opacity="1" d="M0,0L288,32L576,32L864,288L1152,128L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>  </div>
-  <footer>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111" fill-opacity="1" d="M0,0L288,32L576,32L864,288L1152,128L1440,192L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>  </div> -->
+  <!-- <footer>
     <div class="footer-content">
         <h3>Rais Akbar Sidik</h3>
         <p>I am a web designer who loves beauty and functionality. I am required to create an engaging and intuitive online experience, with an elegant and functional design. Let's create your dream website together!</p>
@@ -58,7 +55,7 @@
         </ul>
     </div>
     <div class="footer-bottom">
-        <p>copyright &copy; <a href="#">sikang_is</a>  </p>
+        <p>copyright &copy; <a href="#">sikang_is</a>  </p> -->
                 <!-- <div class="footer-menu">
                   <ul class="f-menu">
                     <li><a style="color: #F87600;" href="index.html">Home</a></li>
